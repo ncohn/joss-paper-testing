@@ -1,21 +1,19 @@
 ---
-title: 'DRT: A rapid coastal foredune evolution prediction tool'
+title: 'pybeach: A Python package for extracting the location of dune toes on beach profile transects'
 tags:
-  - matlab
-  - dunes
-  - storms
+  - Python
   - coastal
+  - morphology
+  - dunes
+  - machine learning
 authors:
-  - name: Nicholas Cohn^[Corresponding author: nicholas.t.cohn@erdc.dren.mil]
-    orcid: 0000-0003-4287-039X
-    affiliation: 1
-  - name: Katherine Brodie
-    orcid: 0000-0003-1945-5112
+  - name: Tomas Beuzen
+    orcid: 0000-0003-2762-9151
     affiliation: 1
 affiliations:
- - name: U.S. Army Engineer Research and Development Center
+ - name: Department of Statistics, University of British Columbia, Vancouver, Canada
    index: 1
-date: 25 November 2020
+date: 26 October 2019
 bibliography: paper.bib
 ---
 
