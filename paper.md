@@ -1,3 +1,4 @@
+---
 title: 'DRT: A rapid coastal foredune evolution prediction tool'
 tags:
   - matlab
@@ -18,7 +19,6 @@ affiliations:
    index: 1
 date: 1 December 2020
 bibliography: paper.bib
-
 ---
 
 # Summary
