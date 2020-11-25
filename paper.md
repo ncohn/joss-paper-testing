@@ -10,6 +10,9 @@ authors:
   - name: Nicholas Cohn
     orcid: 0000-0003-4287-039X
     affiliation: 1
+  - name: Katherine Brodie
+    orcid: 0000-0003-1945-5112
+    affiliation: 1
 affiliations:
  - name: US Army Engineer Research and Development Center, Coastal and Hydraulics Laboratory - Field Research Facility, Duck, NC
    index: 1
