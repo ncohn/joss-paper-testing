@@ -27,14 +27,14 @@ features will naturally grow from wind-driven processes is important for quantif
 compiling and running models, and visualizing model output can take significant time and computational effort. These
 barriers often limit the ability for non-experts to access or utilize dune modeling tools for planning or prediction purposes.
 
+![DRT code workflow showing connections between the graphical user interface, functions to download and process environmental data, gridding functions, model simulations, and visualization.\label{fig:fig1}](DRT_Workflow.jpg)
+
 The Dune Response Tool ('DRT') was designed to be used by coastal practitioners for planning purposes and
 for research applications, with minimal external input required. 'DRT' includes a series of matlab codes (\autoref{fig:fig1}) to download
 relevant oceanographic and meteorological variables from public data sources for any ocean-fronting coastline in the continental US, which are used to force simple models for simulating dune erosion from
 waves and for quantifying volumetric dune accretion from winds. These tools can be run in both hindcasting and forecasting modes, with
 model simulations typically taking seconds to minutes to run for typical applications. The back-end codes are wrapped within
 a graphical user interface (GUI, \autoref{fig:fig2}) to allow for straightforward field site selection and for visualizing model outputs.
-
-![DRT code workflow showing connections between the graphical user interface, functions to download and process environmental data, gridding functions, model simulations, and visualization.\label{fig:fig1}](DRT_Workflow.jpg)
 
 ![Screengrab of the DRT graphical user interface.\label{fig:fig2}](DRT_GUI.jpg)
 
@@ -65,10 +65,7 @@ Although these various tools do not include all relevant morphodynamic processes
 # 'DRT 'Example
 An example of a model setup initialized on XXXXX at Latitude of and Longitude of XXXX of represents the model predicted erosion and accretion from Hurricane Sandy, as shown in \autoref{fig:fig3}. Consistent with XXXXXX, the tool shows destruction of the dune system over the time period. On a standard PC the tool took less than 30 seconds to download relevant environmental data from the web, run the model, and display the output.
 
-
-
 ![Example model hindcast model output for Hurricane Sandy for a site in New Jersey, USA.\label{fig:fig3}](DRT_Example.jpg)
-
 
 # Installation
 The code consists of a matlab-based .mlapp interface which calls a series of individual .m scripts, as described in \autoref{fig:fig1}. These scripts can also be run independently outside of the GUI.
