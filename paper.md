@@ -38,7 +38,7 @@ a graphical user interface (GUI, \autoref{fig:fig2}) to allow for straightforwar
 
 ![Screengrab of the DRT graphical user interface.\label{fig:fig2}](DRT_GUI.jpg)
 
-#Statement of Need
+# Statement of Need
 Rapid predictive tools of coastal sediment transport and morphology change, even if they lack a full depiction of the relevant
 hydrodynamic or morphdynamics processes, are important for understand coastal change hazards. In 'DRT' all
 necessary pre-processing steps, model simulations, and visualizations for simple erosional and accretional dune volume change models have been included within a single package.
@@ -48,7 +48,7 @@ and (3) data quality. End to end tools that are able to generate appropriate mod
 reach for the non-expert. This tool aims to provide an easy to use means to complete planning level assessments of dune erosion and growth, with datasets pre-loaded for the majority of the US coastline.
 
 
-#'DRT' Workflow
+# 'DRT' Workflow
 The code includes pre-processing scripts which automatically download relevant oceanographic and meteorological variables from public data sources for
 any ocean-fronting coastline in the continental US in both hindcasting (any date from 1980 to 2017) and
 forecasting (now to 3 days from now) mode as shown in \autoref{fig:fig1}.
@@ -62,7 +62,7 @@ The tool purposely has relatively few input parameters, although the user may mo
 Although these various tools do not include all relevant morphodynamic processes controlled dune evolution during storms, the combination of approaches is purposely meant to provide a rapid answer for planning purposes. For more complicated cases, the code can be modified to ingest different data inputs or allow for new capabilities that are not yet incorporated.
 
 
-#'DRT 'Example
+# 'DRT 'Example
 An example of a model setup initialized on XXXXX at Latitude of and Longitude of XXXX of represents the model predicted erosion and accretion from Hurricane Sandy, as shown in \autoref{fig:fig3}. Consistent with XXXXXX, the tool shows destruction of the dune system over the time period. On a standard PC the tool took less than 30 seconds to download relevant environmental data from the web, run the model, and display the output.
 
 
@@ -70,7 +70,7 @@ An example of a model setup initialized on XXXXX at Latitude of and Longitude of
 ![Example model hindcast model output for Hurricane Sandy for a site in New Jersey, USA.\label{fig:fig3}](DRT_Example.jpg)
 
 
-#Installation
+# Installation
 The code consists of a matlab-based .mlapp interface which calls a series of individual .m scripts, as described in \autoref{fig:fig1}. These scripts can also be run independently outside of the GUI.
 
 In case of compatibility issues or non-access to Matlab, a compiled executable for the DRT GUI is provided on the site for Windows or MacOS platforms to make the tool more accessible to non-coders.
