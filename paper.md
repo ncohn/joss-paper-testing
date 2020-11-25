@@ -3,8 +3,6 @@ title: 'DRT: A rapid coastal foredune evolution prediction tool'
 tags:
   - matlab
   - dunes
-  - geomorphology
-  - oceanography
   - storms
   - coastal
 authors:
@@ -19,6 +17,7 @@ affiliations:
    index: 1
 date: 1 December 2020
 bibliography: paper.bib
+
 ---
 
 # Summary
@@ -36,7 +35,7 @@ waves and for quantifying volumetric dune accretion from winds. These tools can 
 model simulations typically taking seconds to minutes to run for typical applications. The back-end codes are wrapped within
 a graphical user interface (GUI, \autoref{fig:fig2}) to allow for straightforward field site selection and for visualizing model outputs.
 
-![__*DRT*__ code workflow showing connections between the graphical user interface, functions to download and process environmental data, gridding functions, model simulations, and visualization.\label{fig:fig1}](DRT_Workflow.jpg)
+![DRT code workflow showing connections between the graphical user interface, functions to download and process environmental data, gridding functions, model simulations, and visualization.\label{fig:fig1}](DRT_Workflow.jpg)
 
 ![Screengrab of the DRT graphical user interface.\label{fig:fig2}](DRT_GUI.jpg)
 
