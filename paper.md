@@ -11,7 +11,7 @@ authors:
     orcid: 0000-0003-4287-039X
     affiliation: 1
 affiliations:
- - name: Department of Statistics, University of British Columbia, Vancouver, Canada
+ - name: US Army Engineer Research and Development Center, Coastal and Hydraulics Laboratory - Field Research Facility, Duck, NC
    index: 1
 date: 26 October 2019
 bibliography: paper.bib
