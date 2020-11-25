@@ -13,7 +13,7 @@ authors:
     orcid: 0000-0003-1945-5112
     affiliation: 1
 affiliations:
- - name: U.S. Army Engineer Research and Development Center, Coastal and Hydraulics Laboratory
+ - name: U.S. Army Engineer Research and Development Center
    index: 1
 date: 25 November 2020
 bibliography: paper.bib
@@ -53,9 +53,9 @@ The code includes pre-processing scripts which automatically download relevant o
 any ocean-fronting coastline in the continental US in both hindcasting (any date from 1980 to 2017) and
 forecasting (now to 3 days from now) mode as shown in \autoref{fig:fig1}.
 
-Simplified beach-dune profiles can be generated from a database of morphometric data compiled from [@USGS:2017] and [@Mull:2014] that covers the majority of the U.S. oceanfront coastline. Where pre-compiled data does not exist or where the user wishes to input their own morphology information, this information can be input into the tool. A gridded profile is generated from the data in this step.
+Simplified beach-dune profiles can be generated from a database of morphometric data compiled from USGS:2017 and Mull:2014 that covers the majority of the U.S. oceanfront coastline. Where pre-compiled data does not exist or where the user wishes to input their own morphology information, this information can be input into the tool. A gridded profile is generated from the data in this step.
 
-A simple 1D dune erosion model based on [@Palmsten:2012] has been implemented. The forcings are used to calculate volumetric dune erosion for a user-defined time interval. A set of equations for estimating wind-blown transport into dunes following the general approach of [@Delgado:2011], implementing the transport equation of [@Kawamura:1951], is also included.
+A simple 1D dune erosion model based on Palmsten:2012 has been implemented. The forcings are used to calculate volumetric dune erosion for a user-defined time interval. A set of equations for estimating wind-blown transport into dunes following the general approach of Delgado:2011, implementing the transport equation of Kawamura:1951, is also included.
 
 The tool purposely has relatively few input parameters, although the user may modify relevant wind- and wave- related transport coefficients, as well as local grain size, wave runup modifiers, and morphologic parameters. A simple ensemble approach is added where a range of input parameters can be included to bound the solution and give a better sense of uncertainty of predictions for the end-user.
 
