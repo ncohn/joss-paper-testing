@@ -28,7 +28,7 @@ features will naturally grow from wind-driven processes is important for quantif
 compiling and running models, and visualizing model output can take significant time and computational effort. These
 barriers often limit the ability for non-experts to access or utilize dune modeling tools for planning or prediction purposes.
 
-![DRT code workflow showing connections between the graphical user interface, functions to download and process environmental data, gridding functions, model simulations, and visualization.\label{fig:fig1}](DRT_Workflow.jpg){ width=60% }
+![DRT code workflow showing connections between the graphical user interface, functions to download and process environmental data, gridding functions, model simulations, and visualization.\label{fig:fig1}](DRT_Workflow.jpg){ width=80% }
 
 The Dune Response Tool ('DRT') was designed to be used by coastal practitioners for planning purposes and
 for research applications, with minimal external input required. 'DRT' includes a series of matlab codes (\autoref{fig:fig1}) to download
@@ -54,11 +54,9 @@ The code includes pre-processing scripts which automatically download relevant o
 any ocean-fronting coastline in the continental US in both hindcasting (any date from 1980 to 2017) and
 forecasting (now to 3 days from now) mode as shown in \autoref{fig:fig1}.
 
-Simplified beach-dune profiles can be generated from a database of morphometric data compiled from [@USGS:2017] and [@Mull:2014] that covers the majority of the U.S. oceanfront coastline. Where pre-compiled beach and dune profile data does not exist or where the user wishes to input their own morphology information, this information can be input into the tool. A gridded profile is generated from the data in this step.
+Simplified beach-dune profiles can be generated from a database of morphometric data hat covers the majority of the U.S. oceanfront coastline compiled from @USGS:2017 for the Gulf and Atlantic US coastlines and @Mull:2014 for the US Pacific Northwest coastline. Where pre-compiled beach and dune profile data does not exist or where the user wishes to input their own morphology information, this information can be input into the tool. A gridded profile is generated from the data in this step.
 
-
-
-. The environmental forcings are used to calculate volumetric dune erosion for a user-defined time interval at hourly time steps utilizing a 1D dune erosion model based on [@Palmsten:2012]. A set of equations for estimating wind-blown transport into dunes following the general approach of [@Delgado:2011], implementing the transport equation of [@Kawamura:1951], is also included.
+The downloaded environmental forcings are used to calculate volumetric dune erosion for a user-defined time interval at hourly time steps utilizing a 1D dune erosion model based on @Palmsten:2012. A set of equations for estimating wind-blown transport into dunes following the general approach of @Delgado:2011, implementing the transport equation of @Kawamura:1951, is also included.
 
 The tool purposely has relatively few input parameters, although the user may modify relevant wind- and wave- related transport coefficients, as well as local grain size, wave runup modifiers, and morphologic parameters in the "Model Attributes" or "Advanced" tab within the GUI. A simple ensemble approach is added where a range of input parameters can be included to bound the solution and give a better sense of uncertainty of predictions for the end-user.
 
@@ -66,7 +64,7 @@ Although these various tools do not include all relevant morphodynamic processes
 
 
 # 'DRT 'Example
-An example of a model setup initialized on 29 October 2012 at 39.42°N, 74.32°W near Brigantine, NJ represents the model predicted erosion and accretion from Hurricane Sandy, as shown in \autoref{fig:fig3}. Consistent with observations from the storm, the tool shows destruction of the dune system over the time period. On a standard PC the tool took less than 30 seconds to download relevant environmental data from the web, run the model, and display the output.
+An example of a model setup initialized on 29 October 2012 at 39.42°N, 74.32°W near Brigantine, NJ represents the model predicted erosion and accretion from Hurricane Sandy, as shown in \autoref{fig:fig3}. Consistent with observations from the storm [@Sopkin:2014], the tool shows destruction of the dune system over the time period. On a standard PC the tool took less than 30 seconds to download relevant environmental data from the web, run the model, and display the output.
 
 ![Example model hindcast model output for Hurricane Sandy for a site in New Jersey, USA.\label{fig:fig3}](DRT_Example.jpg)
 
