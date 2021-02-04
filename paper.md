@@ -37,7 +37,7 @@ waves and for quantifying volumetric dune accretion from winds. These tools can 
 model simulations typically taking seconds to minutes to run for typical applications. The back-end codes are wrapped within
 a graphical user interface (GUI, \autoref{fig:fig2}) to allow for straightforward field site selection and for visualizing model outputs.
 
-![Screengrab of the DRT graphical user interface.\label{fig:fig2}](DRT_GUI.jpg =10x20)
+![Screengrab of the DRT graphical user interface.\label{fig:fig2}](DRT_GUI.jpg){ width=20% }
 
 # Statement of Need
 Rapid predictive tools of coastal sediment transport and morphology change, even if they lack a full depiction of the relevant
