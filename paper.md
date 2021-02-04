@@ -21,6 +21,8 @@ bibliography: paper.bib
 ---
 
 # Summary
+An example of a model setup initialized on 29 October 2012 at 39.42&degN, 74.32&degW
+
 
 Coastal foredunes are the first line of defense against ocean-side flooding along many low-lying sandy coastlines. For this reason,
 understanding when dunes will be eroded during major storm events and under which conditions these morphological
